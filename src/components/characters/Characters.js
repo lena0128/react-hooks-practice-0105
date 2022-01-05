@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { } from 'react';
 import { fetchSWAPI } from '../utils';
+
 
 function Characters(){
     return (

@@ -1,9 +1,14 @@
 import './App.css';
+import React, { useState } from 'react';
+import Pages from './components/Pages';
 
 function App() {
+
+
   return (
     <div className="App">
       <h3>React hooks Practice</h3>
+      <Pages />
     </div>
   );
 }
