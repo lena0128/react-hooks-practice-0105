@@ -20,11 +20,11 @@ function Planets(){
     }, [])
 
 
-    // STEP 4 - check if the data needs update
+    // STEP 4 - check if the data needs update - we don't need this for now
     // componentDidUpdate
-    useEffect(() => {
-        console.log("Planets needs update!")
-    }, [planets])
+    // useEffect(() => {
+    //     console.log("Planets needs update!")
+    // }, [planets])
 
     // STEP 3- map the data to the DOM
     return (

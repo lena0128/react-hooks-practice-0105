@@ -21,9 +21,10 @@ function Characters(){
     }, [])
 
     // componentDidUpdate
-    useEffect(() => {
-        console.log("characters updated")  
-    }, [characters])
+    // we don't need this for now
+    // useEffect(() => {
+    //     console.log("characters updated")  
+    // }, [characters])
 
     return (
         <div>
