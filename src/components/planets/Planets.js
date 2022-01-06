@@ -21,7 +21,7 @@ function Planets(){
 
 
     // STEP 4 - check if the data needs update - we don't need this for now
-    // componentDidUpdate
+    // componentDidUpdate + componentDidMount
     // useEffect(() => {
     //     console.log("Planets needs update!")
     // }, [planets])

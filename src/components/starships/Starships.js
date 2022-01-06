@@ -19,11 +19,11 @@ function Starships() {
         }
     }, [])
 
-    // componentDidUpdate <= we pass in the startships array as the dependency 
+    // componentDidUpdate + componentDidMount <= we pass in the startships array as the dependency 
     // because we want to update the component whenever the data changes 
-    useEffect(() => {
-        console.log("updating starship")
-    }, [starships])
+    // useEffect(() => {
+    //     console.log("updating starship")
+    // }, [starships])
 
     return (
         <div>

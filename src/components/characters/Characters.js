@@ -1,5 +1,4 @@
-import React, { } from 'react';
-import { useState, useEffect } from 'react/cjs/react.development';
+import React, { useState, useEffect } from 'react';
 import { fetchSWAPI } from '../utils';
 
 
@@ -20,7 +19,7 @@ function Characters(){
         }      
     }, [])
 
-    // componentDidUpdate
+    // componentDidUpdate + componentDidMount
     // we don't need this for now
     // useEffect(() => {
     //     console.log("characters updated")  
